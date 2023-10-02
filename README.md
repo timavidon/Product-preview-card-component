@@ -20,8 +20,8 @@ This is a solution to the [Product preview card component challenge on Frontend 
 
 ### Links
 
-- Solution URL: [Github](https://your-solution-url.com)
-- Live Site URL: [Live Site](https://your-live-site-url.com)
+- Solution URL: [Github](https://github.com/timavidon/frontend-mentor-c3)
+- Live Site URL: [Live Site](https://timavidon.github.io/frontend-mentor-c3/)
 
 ## My process
 
@@ -36,5 +36,6 @@ This is a solution to the [Product preview card component challenge on Frontend 
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+- Improve my responsive and accessabilty skills.
+- Also write a better code for the reponsive part of this challenge.
 
