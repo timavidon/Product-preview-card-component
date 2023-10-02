@@ -1,0 +1,238 @@
+:root {
+    --dark-cayn: hsl(158, 36%, 37%);
+    --cream: hsl(30, 38%, 92%);
+    --very-dark-blue: hsl(212, 21%, 14%);
+    --dark-grayish-blue: hsl(228, 12%, 48%);
+    --white: hsl(0, 0%, 100%);
+}
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.6rem;
+    background-color: var(--cream);
+}
+
+.perfume-container {
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.perfume-card {
+    height: 50rem;
+    width: 70rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--white);
+    border-radius: 1.5rem;
+}
+
+.perfume-img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 1.5rem 0 0 1.5rem;
+}
+
+.perfume-content {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 4rem;
+    position: relative;
+}
+
+.perfume-content h1,
+.perfume-content p {
+    font-weight: 500;
+    color: var(--dark-grayish-blue);
+}
+
+.perfume-content h1 {
+    font-size: 1.4rem;
+    letter-spacing: 0.45rem;
+    text-transform: uppercase;
+    margin-bottom: 1.5rem;
+}
+
+.perfume-content h2 {
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 0.98;
+    margin-bottom: 2.2rem;
+}
+
+.perfume-content h2,
+.discount-price {
+    font-family: 'Fraunces', serif;
+}
+
+.perfume-content p {
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+.discount-price {
+    font-size: 4rem;
+    color: var(--dark-cayn);
+}
+
+.price {
+    position: absolute;
+    top: 35rem;
+    right: 9rem;
+    font-size: 1.6rem;
+}
+
+.perfume-btn {
+    font-size: 1.6rem;
+    font-weight: 700;
+    padding: 1.5rem 7rem;
+    border: none;
+    border-radius: 0.8rem;
+    color: var(--white);
+    background-color: var(--dark-cayn);
+    cursor: pointer;
+}
+
+.perfume-btn:hover {
+    background-color: var(--very-dark-blue);
+}
+
+.btn-space {
+    margin-left: 0.7rem;
+}
+
+.attribution {
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+/* Responsive Designs */
+@media screen and (max-width: 710px) {
+    .perfume-container {
+        height: 100vh;
+    }
+
+    .perfume-card {
+        height: 120rem;
+        width: 100%;
+        display: bloack;
+        flex-direction: column;
+    }
+
+    .price {
+        top: 32rem;
+        right: 20rem;
+    }
+
+    .perfume-img {
+        border-radius: 1.5rem 1.5rem 0 0;
+    }
+
+    .attribution {
+        margin: 15rem 0 2rem 0;
+    }
+}
+
+/* iPhone XR */
+@media screen and (max-width: 414px) {
+    .perfume-container {
+        height: 100vh;
+    }
+
+    .perfume-card {
+        height: 115rem;
+        width: 100%;
+        display: bloack;
+        flex-direction: column;
+    }
+
+    .price {
+        top: 36.3rem;
+        right: 14rem;
+        font-size: 1.6rem;
+    }
+
+    .perfume-img {
+        border-radius: 1.5rem 1.5rem 0 0;
+    }
+
+    .attribution {
+        margin: 15rem 0 2rem 0;
+    }
+}
+
+/* iPhone 12 Pro*/
+@media screen and (max-width: 390px) {
+    .perfume-container {
+        height: 100vh;
+    }
+
+    .perfume-card {
+        height: 105rem;
+        width: 100%;
+        display: bloack;
+        flex-direction: column;
+    }
+
+    .price {
+        top: 34.4rem;
+        right: 12rem;
+        font-size: 1.6rem;
+    }
+
+    .perfume-img {
+        border-radius: 1.5rem 1.5rem 0 0;
+    }
+
+    .attribution {
+        margin: 13rem 0 2rem 0;
+    }
+}
+
+/* iPhone SE */
+@media screen and (max-width: 375px) {
+    .perfume-container {
+        height: 100vh;
+    }
+
+    .perfume-card {
+        height: 105rem;
+        width: 100%;
+        display: bloack;
+        flex-direction: column;
+    }
+
+    .price {
+        top: 34.5rem;
+        right: 10rem;
+    }
+
+    .perfume-img {
+        border-radius: 1.5rem 1.5rem 0 0;
+    }
+
+    .attribution {
+        margin: 22rem 0 2rem 0;
+    }
+}
