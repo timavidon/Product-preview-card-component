@@ -110,6 +110,10 @@ body {
   color: var(--clr-primary-400);
 }
 
+.product__original-price {
+  font-size: var(--fs-300);
+}
+
 .button {
   display: inline-flex;
   justify-content: center;
